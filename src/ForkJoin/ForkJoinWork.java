@@ -22,6 +22,7 @@ public class ForkJoinWork extends RecursiveTask<Long> {
     @Override
     protected Long compute() {
         System.out.println("zzzzzzzzzzzzzzz");
+        System.out.println("zzzzzzzzzzzzzzz");
         //是否拆分完毕
         long length = end - start;
         if (length < critcal) {
